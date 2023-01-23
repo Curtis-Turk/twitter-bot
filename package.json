@@ -2,7 +2,8 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "puppeteer": "^19.6.0",
-    "twit": "^2.2.11"
+    "twit": "^2.2.11",
+    "twitter-v2": "^1.1.0"
   },
   "type": "module"
 }
