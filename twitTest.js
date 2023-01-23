@@ -2,8 +2,6 @@ import Twit from "twit";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-console.log(process.env.API_KEY);
-
 let T = new Twit({
   consumer_key: process.env.API_KEY,
   consumer_secret: process.env.API_KEY_SECRET,
